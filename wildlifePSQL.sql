@@ -73,14 +73,20 @@ FROM sightings;
 SELECT *
 FROM sightings
 WHERE location ILIKE '%Pass%';
+ 
+-- ! alternative 
+SELECT *
+FROM sightings
+WHERE location ~* '\mPass\M';
 
--- - Problem 4: List each ranger's name and their total number of sightings
+
+--? - Problem 4: List each ranger's name and their total number of sightings
 SELECT r.name, COUNT(s.sighting_id) AS total_sightings
 FROM rangers r
 LEFT JOIN sightings s ON r.ranger_id = s.ranger_id
 GROUP BY r.ranger_id, r.name;
 
--- - Problem 5: List species that have never been sighted
+-- ? - Problem 5: List species that have never been sighted
 SELECT s.common_name
 FROM species s
 LEFT JOIN sightings si ON s.species_id = si.species_id
