@@ -79,8 +79,7 @@ JOIN একাধিক টেবিল থেকে সম্পর্কিত
 - Data integrity বজায় রাখে
 - Complex relationships model করতে সাহায্য করে
 
-**ই-কমার্স সিস্টেমে JOIN এর প্রয়োজনীয়তা:**
-আপনার মাল্টি-স্টোর ইনভেন্টরি সিস্টেমে users, stores, products, categories, orders এর মধ্যে জটিল সম্পর্ক রয়েছে। এই সম্পর্কগুলি বুঝতে এবং comprehensive reports তৈরি করতে JOIN অপরিহার্য।
+
 
 বিভিন্ন ধরনের JOIN:
 1. INNER JOIN
