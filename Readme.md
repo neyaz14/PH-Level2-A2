@@ -1,4 +1,4 @@
-# PostgreSQL প্রশ্নোত্তর - বিস্তারিত বিশ্লেষণ
+# PostgreSQL প্রশ্নোত্তর 
 
 ## Question 1 : What is Postgresql 
 ## Answer :
