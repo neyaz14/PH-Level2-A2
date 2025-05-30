@@ -10,8 +10,7 @@ PostgreSQL ওপেন সোর্স রিলেশনাল ডাটাব
 - Extensibility: কাস্টম ডাটা টাইপ, অপারেটর এবং ফাংশন তৈরির সুবিধা
 - Advanced Data Types: JSON, JSONB, Arrays, UUID, Geographic data types
 - Full-text Search: বিল্ট-ইন টেক্সট সার্চ ক্ষমতা
-# ---
----
+
 
 
 ## Question 1 : What is Postgresql 
